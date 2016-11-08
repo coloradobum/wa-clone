@@ -5,11 +5,17 @@ Setup
 
     [] Make sure you are running the LTS version of Node.js (as of October 2016 the LTS version was v4.6.0)
 
+    ## As of 11-8-16 it is v6.9.1 LTS
+
     [] Create package.json:
         $ npm init
+   ## I used yarn init
 
     [] Add /node_modules and /dist to .gitignore
 
+
+## Apparently we no longer need to add babel as LTS supports this already
+# so skipping this
 
 Install babel
 Babel transpiles Javascript ES5 to ES6.
@@ -73,6 +79,10 @@ Create simple test server
         });
 
     [] Test test-server.js by using your browser.
+?? how do I do this?
+
+?? when I run `npm run build` shouldn't the files in dist be browser ready?
+
 
 
 Setup babel-node
